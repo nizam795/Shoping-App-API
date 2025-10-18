@@ -11,7 +11,7 @@ const fs = require("fs");
 const cartRoutes = require("./routes/cartRoutes")
 
 
-const MONGO_URI = 'mongodb+srv://mohdnizam30885:QiZgEDJocXUwVIEL@cluster0.5vlpi2j.mongodb.net/';
+
 
 mongoose.connect(MONGO_URI, {
   useNewUrlParser: true,
